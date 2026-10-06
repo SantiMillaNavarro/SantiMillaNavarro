@@ -1,59 +1,69 @@
-# Hola, soy Santi 👋
+# Hi, I'm Santi 👋
 
-Este perfil reúne algunos de mis proyectos de software desarrollados en ámbitos científicos, educativos, musicales y personales.
+**English** · [Español](README_es.md) · [Valencià](README_va.md)
 
-Mi trabajo parte de necesidades concretas que surgen en investigación, docencia y otros proyectos personales, buscando crear herramientas prácticas y accesibles.
+This profile brings together some of the software projects I develop for scientific research, teaching, music, and personal experimentation.
 
-## 🧪 Ciencia e investigación
+I tend to build tools around real needs: making experimental workflows more reproducible, simplifying day-to-day tasks, or creating practical alternatives to existing software.
 
-Desarrollo de herramientas orientadas a investigación científica, adquisición experimental, estimulación y análisis de datos.
+## 🧪 Science & Research
 
-<!--
-### 🔬 Visual Stimulator
+### 🔬 [Visual Stimulator](https://github.com/SantiMillaNavarro/Visual-Stimulator)
 
-Software científico abierto para estimulación visual controlada y reproducible en investigación, aplicable a experimentos con MEA/electrofisiología, preparaciones ex vivo, estudios in vivo y otros montajes que requieran estimulación visual.
+Open scientific software for **controlled and reproducible visual stimulation** in experimental research.
 
-[Ver repositorio](https://github.com/SantiMillaNavarro/Visual-Stimulator)
--->
+Visual Stimulator is designed as a general-purpose platform rather than an MEA-only tool. It can be used in:
 
-## 🎵 Música
+- MEA and other electrophysiology experiments;
+- ex vivo retinal, cellular, or tissue preparations;
+- in vivo visual experiments;
+- setups synchronized with PowerLab, MEA systems, or other acquisition hardware;
+- standalone visual-stimulation paradigms.
+
+The software includes PsychoPy-based stimulus presentation, reproducible protocols, per-frame timing records, optional TTL synchronization, timing quality-control information, and a bilingual Spanish/English operator interface.
+
+The currently documented validation workflow was performed with MEA/PowerLab hardware, while the software itself is intended for broader experimental use.
+
+➡️ [Repository](https://github.com/SantiMillaNavarro/Visual-Stimulator) · [Latest release](https://github.com/SantiMillaNavarro/Visual-Stimulator/releases/latest) · [Citation information](https://github.com/SantiMillaNavarro/Visual-Stimulator/blob/main/CITATION.cff)
+
+License: **GPL-3.0-or-later**
+
+## 🎵 Music
 
 ### 🎼 [Partitures Festeres](https://github.com/SantiMillaNavarro/Partitures-Festeres)
 
-Aplicación Android para organizar, consultar y utilizar partituras festeras desde tabletas y dispositivos Android.
+Android application for organizing, viewing, and using sheet music from tablets and other Android devices, especially for rehearsals, parades, concerts, and other situations where a large repertoire needs to remain quickly accessible.
 
-Está diseñada especialmente para ensayos, pasacalles, conciertos y otras situaciones en las que es necesario disponer de un repertorio amplio de forma cómoda y organizada.
+Main features include:
 
-Entre sus funciones se incluyen:
+- library based on the device's real folder structure;
+- repertoires, favorites, and recent scores;
+- score search;
+- document import and scanning;
+- PDF viewer with annotations;
+- tuner, metronome, and reference tone;
+- backup tools;
+- Valencian and Spanish interface.
 
-- biblioteca basada en la estructura real de carpetas;
-- repertorios, favoritos y partituras recientes;
-- búsqueda de partituras;
-- importación y escaneo de documentos;
-- visor PDF con anotaciones;
-- afinador, metrónomo y nota de referencia;
-- copias de seguridad;
-- interfaz en valenciano y castellano.
+➡️ [Repository and downloads](https://github.com/SantiMillaNavarro/Partitures-Festeres)
 
-➡️ [Repositorio y descargas](https://github.com/SantiMillaNavarro/Partitures-Festeres)
+## 🎮 Personal projects
 
-## 🎮 Ocio y proyectos personales
+Other experimental tools, games, and personal software projects may be added here over time.
 
-Aquí se irán incorporando otros proyectos y herramientas desarrollados como experimentación personal.
+## 🛠️ Technologies
 
-## 🛠️ Tecnologías
+Projects across this profile may include:
 
-Los distintos proyectos pueden incluir tecnologías como:
+`Python` · `PsychoPy` · `Tkinter` · `Android` · `Kotlin` · `MATLAB` · `Arduino`
 
-`Python` · `Android` · `Kotlin` · `MATLAB` · `Arduino`
+## 🤖 AI-assisted development
 
-## 🤖 Desarrollo asistido por inteligencia artificial
+Some projects in this profile have been developed with significant assistance from artificial-intelligence tools.
 
-Algunos de los proyectos de este perfil han sido desarrollados con una participación significativa de herramientas de inteligencia artificial.
+In those projects, I define the objectives, requirements, experimental behavior, design decisions, tests, validation criteria, and requested corrections, while **ChatGPT by OpenAI** is used as a development tool for iterative code generation and modification, documentation, review, and repository organization.
 
-En estos casos, el desarrollo parte de mis especificaciones, requisitos, decisiones de diseño, pruebas y validación, utilizando **ChatGPT de OpenAI como herramienta para la generación y modificación iterativa de código, documentación y otros elementos del proyecto**.
-
-Cuando la IA tenga una participación significativa en un proyecto, se indicará expresamente en su repositorio para mantener la máxima transparencia sobre el proceso de desarrollo.
+When AI has played a significant role in a project, this is stated explicitly in its repository to keep the development process transparent.
 
 ---
 
