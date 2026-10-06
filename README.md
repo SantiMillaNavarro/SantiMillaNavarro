@@ -11,7 +11,7 @@ Desarrollo de herramientas orientadas a investigación científica, adquisición
 <!--
 ### 🔬 Visual Stimulator
 
-Herramienta de estimulación visual desarrollada para aplicaciones experimentales y de investigación.
+Software científico abierto para estimulación visual controlada y reproducible en investigación, aplicable a experimentos con MEA/electrofisiología, preparaciones ex vivo, estudios in vivo y otros montajes que requieran estimulación visual.
 
 [Ver repositorio](https://github.com/SantiMillaNavarro/Visual-Stimulator)
 -->
